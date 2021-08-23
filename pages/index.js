@@ -1,23 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Sidebar from '../components/page-layout/sidebar/Sidebar'
 
-export default function Home() {
+function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>RAKSH PORTFOLIO</title>
-        <meta name="description" content="my portfolio site" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-       
-      </main>
-
-      <footer >
-        
-      </footer>
-    </div>
+    <>
+      <Sidebar/>
+    </>
   )
 }
+
+export default Home
